@@ -1,5 +1,5 @@
 # DO NOT REMOVE CREDITS
-# Copyright (c) 2021 dakshy/droplink-bot
+# Copyright (c) 2021 yourpapa11/vkshort bot
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as published
@@ -45,13 +45,13 @@ async def link_handler(bot, message):
     for num in range(len(links)):
       try:
         short_link = await get_shortlink(links[num])
-        await message.reply(f'**Long URL:** {links[num]}\n**Shortened URL:** {short_link}\n\nMade by <a href="https://github.com/dakshy">ToonsHub</a>', quote=True, disable_web_page_preview=True)
+        await message.reply(f'**Long URL:** {links[num]}\n**Shortened URL:** {short_link}\n\nMade by <a href="https://github.com/yourpapa11">ToonsHub</a>', quote=True, disable_web_page_preview=True)
       except Exception as e:
         await message.reply(f'Error: {e}', quote=True)
 
 
 async def get_shortlink(link):
-    url = 'https://droplink.co/api'
+    url = 'https://vkshort.in/api'
     params = {'api': API_KEY, 'url': link}
 
     async with aiohttp.ClientSession() as session:
