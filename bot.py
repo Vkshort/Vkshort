@@ -23,7 +23,7 @@ API_HASH = environ.get('API_HASH')
 BOT_TOKEN = environ.get('BOT_TOKEN')
 API_KEY = environ.get('API_KEY', 'e3eddb3e7c5513eee187120fce788ddc4a1a643b')
 
-bot = Client('droplink bot',
+bot = Client('vkshort bot',
              api_id=API_ID,
              api_hash=API_HASH,
              bot_token=BOT_TOKEN,
@@ -35,7 +35,7 @@ bot = Client('droplink bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}!**\n\n"
-        "I'm a specialised bot for shortening Droplink.co links which can help you earn money by just sharing links. Made by <a href=\"https://github.com/dakshy\">ToonsHub</a>.")
+        "I'm a specialised bot for shortening vkshort links which can help you earn money by just sharing links. Made by <a href=\"https://github.com/yourpapa11">ToonsHub</a>.")
 
 
 @bot.on_message(filters.regex(r'https?://[^\s]+') & filters.private)
