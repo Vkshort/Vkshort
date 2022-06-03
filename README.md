@@ -16,7 +16,7 @@ Make short link by using [Vkshort](https://vkshort.in) API key. Made by @moviesh
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://t.me/BotFather), and get the Telegram API token.
 * `API_ID`: Get this value from [my.telegram.org](https://my.telegram.org/apps).
 * `API_HASH`: Get this value from [my.telegram.org](https://my.telegram.org/apps).
-* `API_KEY`: Create [vkshort.in](https://vkshort.in) account then get this value from [Droplink API](https://vkshort.in).
+* `API_KEY`: Create [vkshort.in](https://vkshort.in) account then get this value from [vkshort API](https://vkshort.in).
 
 ### How to Use?
 
