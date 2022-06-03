@@ -1,5 +1,5 @@
-# Droplink-bot
-Make short link by using [Droplink](https://droplink.co/ref/DAKSHYADAV) API key. Made by @dakshy. Give a star 🌟 and fork 🍴 it.
+# Vkshort-bot
+Make short link by using [Vkshort](https://vkshort.in) API key. Made by @movieshub9999. Give a star 🌟 and fork 🍴 it.
 
 ### New Features!!
 
@@ -16,7 +16,7 @@ Make short link by using [Droplink](https://droplink.co/ref/DAKSHYADAV) API key.
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://t.me/BotFather), and get the Telegram API token.
 * `API_ID`: Get this value from [my.telegram.org](https://my.telegram.org/apps).
 * `API_HASH`: Get this value from [my.telegram.org](https://my.telegram.org/apps).
-* `API_KEY`: Create [Droplink](https://droplink.co/ref/DAKSHYADAV) account then get this value from [Droplink API](https://droplink.co/ref/DAKSHYADAV).
+* `API_KEY`: Create [vkshort.in](https://vkshort.in) account then get this value from [Droplink API](https://vkshort.in).
 
 ### How to Use?
 
@@ -28,7 +28,3 @@ Make short link by using [Droplink](https://droplink.co/ref/DAKSHYADAV) API key.
 
 <a href="https://dakshy.github.io/droplink-bot/screenshots/"><img src="https://img.shields.io/badge/See%20Screenshots-white?style=for-the-badge&logo=telegram" width="200"/></a>
 
-### Credits
-
-* <a href="https://github.com/delivrance">Dan</a> for Pyrogram
-* <a href="https://github.com/Mahesh0253/GPlink-bot">Mahesh0253</a> for GPlink-bot.
